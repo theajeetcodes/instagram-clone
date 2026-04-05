@@ -1,14 +1,24 @@
 .sidebar {
-    width: 250px;
+    width: 80px;
     height: 100vh;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* gap: 160px; */
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.sidebar:hover {
+    width: 250px;
+}
+
+.sidebar:hover .text {
+    opacity: 1;
+    margin-left: 10px;
 }
 
 .menu {
@@ -54,10 +64,20 @@
     border-radius: 50%;
 }
 
+.menu-item,
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .text {
     display: inline-block;
     margin: 0;
     font-size: 14px;
+    opacity: 0;
+    transform: translateX(-10px);
+    white-space: nowrap;
+    transition: all 0.3s ease;
     /* margin: 0px 0px 20px 20px; */
-
 }
