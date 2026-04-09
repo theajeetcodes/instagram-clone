@@ -27,7 +27,6 @@
     gap: 12px;
     font-size: 14px;
     font-family: 'Inter', sans-serif;
-    /* margin-bottom: 320px; */
 }
 
 
@@ -56,7 +55,6 @@
     cursor: pointer;
     border-radius: 8px;
     padding: 10px 10px 10px 5px;
-    /* margin-top: 10px; */
     font-size: 8px;
 }
 
@@ -89,14 +87,12 @@
     padding: 27px;
     position: absolute;
     margin-left: 400px;
-    /* justify-content: space-between; */
     width: 700px;
 }
 
 .story-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     gap: 18px;
     overflow-x: auto;
     padding-bottom: 10px;
@@ -146,7 +142,7 @@
     display: flex;
     flex-direction: column;
     width: 550px;
-    margin-left: 25px;
+    margin: 30px auto;
     margin-top: 30px;
     
 }
@@ -154,24 +150,29 @@
 .post {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 25px;
 }
 
 .user-detail {
     width: 100%;
+    padding: 0 15px;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .post-profile {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    margin-left: 65px;
+    margin-left: 0px;
     border: 2px solid #d62976
 }
 
@@ -207,18 +208,58 @@
 .dot-button img {
     width: 15px;
     height: 15px;
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .image-video {
     height: 600px;
     width: 100%;
     text-align: center;
-    margin-left: 50px;
 }
 
 .image-video img {
     height: 600px;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     border-radius: 8px;
+    border: 1px solid #313131;
+}
+
+/* post update  */
+
+.post-update {
+    width: 100%;
+}
+
+.update-icons {
+    display: flex;
+    gap: 20px;
+    padding: 10px 15px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon img {
+    width: 25px;
+}
+.description-box {
+    padding: 0 15px;
+}
+
+.description-box span {
+    font-size: 16px;
+}
+
+.description{
+    color: rgb(221, 214, 214);
+}
+
+.more {
+    font-size: 13px;
+    color: silver;
+    padding-left: 15px;
 }
