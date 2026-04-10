@@ -225,6 +225,14 @@
     border: 1px solid #313131;
 }
 
+.image-video video {
+    width: 100%;
+    max-width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 /* post update  */
 
 .post-update {
