@@ -83,11 +83,14 @@
 
 .midbar {
     display: flex;
-    flex-direction: column;
-    padding: 27px;
-    position: absolute;
-    margin-left: 400px;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.main-content {
     width: 700px;
+    margin-left: 400px;
 }
 
 .story-container {
@@ -270,4 +273,62 @@
     font-size: 13px;
     color: silver;
     padding-left: 15px;
+}
+
+/* left-bar */
+
+.left-bar {
+   height: fit-content;
+   width: 300px;
+   position: sticky;
+   top: 40px;
+}
+
+.switch-account {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    gap: 10px;
+    align-items: center;
+}
+
+.account {
+    display: flex;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.account img {
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #d62976
+}
+
+.switch-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.account-name {
+    display: flex;
+}
+
+.bio-text {
+    font-size: 12px;
+    color: #afa5a5;
+}
+
+.btn {
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #4f5bd5;
+    font-size: 12px;
+    font-weight: bold;
 }
