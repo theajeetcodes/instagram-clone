@@ -463,3 +463,54 @@
     cursor: pointer;
     transition: transform 0.2s;
 }
+
+/* mobile  */
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .left-bar {
+        display: flex;
+    }
+
+    .main-content {
+        margin-left:  0;
+        width: 100%;
+    }
+}
+
+.mobile-topbar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: black;
+        border-bottom: 1px solid #262626;
+        z-index: 100;
+    }
+
+    .logo-text {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .left-icon {
+        width: 22px;
+    }
+
+    .top-icons img {
+        width: 22px;
+        margin-left: 10px;
+    }
+}
+
