@@ -569,6 +569,19 @@
         max-width: 100%;
         border-radius: 6px;
     }
+
+    .update-icons {
+        padding: 8px 10px;
+        gap: 15px;
+    }
+
+    .icon img {
+        width: 22px;
+    }
+    
+    .description-box {
+        padding: 0 10px;
+    }
 }
 
 
