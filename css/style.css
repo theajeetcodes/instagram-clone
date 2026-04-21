@@ -582,6 +582,34 @@
     .description-box {
         padding: 0 10px;
     }
+
+    .last-bar {
+        position: fixed;
+        bottom: 10px;
+        left: 5%;
+        width: 90%;
+        height: 55px;
+        border-radius: 40px;
+        background: #262626;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+        z-index: 1000;
+    }
+
+    .message img {
+        width: 18px;
+    }
+
+    .message-text {
+        font-size: 13px;
+    }
+
+    .message-profile img {
+        width: 25px;
+        height: 25px;
+    }
 }
 
 
