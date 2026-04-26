@@ -453,8 +453,10 @@
 
     body {
         margin: 0;
-        padding-top: 60px;
-        overflow: hidden;
+        padding-top: 60px 0 80px 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
     }
 
     .sidebar {
@@ -516,6 +518,7 @@
         gap: 12px;
         overflow-x: auto;
         padding: 10px 5px;
+        margin-top: 50px;
     }
 
     .story-ring img {

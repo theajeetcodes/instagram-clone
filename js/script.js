@@ -55,26 +55,52 @@ const postContainer = document.getElementById("postContainer");
 
 const posts = [
     {
-        username: "tech.diary",
-        profile: "images/story2.jpg",
+        username: "code.with.ajeet",
+        profile: "images/profile.png",
         time: "1 h",
-        caption: "I Love India",
-        media: "video/video3.mp4",
+        caption: "Portpolio",
+        media: "video/video1.mp4",
         type: "video",
         likes: "1M",
         comments: "700k",
-        reposts: "50k"
+        reposts: "50k",
+        messages: ""
     },
     {
         username: "codecraft.dev",
         profile: "images/story4.jpg",
         time: "2 h",
-        caption: "Coding is fun",
+        caption: "dubai vibe",
         media: "images/post1.jpg",
         type: "image",
         likes: "500k",
         comments: "120k",
-        reposts: "10k"
+        reposts: "10k",
+        messages: ""
+    },
+    {
+      username: "its_sakshi",
+      profile: "images/story1.jpg",
+      time: "52 min",
+      caption: "Dubai",
+      media: "video/video2.mp4",
+      type: "video",
+      likes: "70k",
+      comments: "10k",
+      reposts: "200",
+      messages: ""
+    },
+    {
+      username: "tech.diary",
+      profile: "images/story2.jpg",
+      time: "5 min",
+      caption: "I Love India",
+      media: "video/video3.mp4",
+      type: "video",
+      likes: "100k",
+      comments: "70k",
+      reposts: "700",
+      messages: ""
     }
 ];
 
@@ -121,6 +147,11 @@ function renderPosts() {
             <div class="icon">
               <img src="images/repost.png">
               <span>${post.reposts}</span>
+            </div>
+
+            <div class="icon">
+              <img src="images/message.png">
+              <span>${post.messages}</span>
             </div>
           </div>
 
