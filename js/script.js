@@ -101,6 +101,18 @@ const posts = [
       comments: "70k",
       reposts: "700",
       messages: ""
+    },
+    {
+      username: "pixel.engineer",
+      profile: "images/story3.jpg",
+      time: "3 h",
+      caption: "edited",
+      media: "images/story3.jpg",
+      type: "image",
+      likes: "10k",
+      comments: "3k",
+      reposts: "70",
+      messages: ""
     }
 ];
 
