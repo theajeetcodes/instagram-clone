@@ -147,7 +147,7 @@ function renderPosts() {
         <div class="post-update">
           <div class="update-icons">
             <div class="icon">
-              <img src="images/notification.png">
+              <img src="images/notification.png" class="like-icon">
               <span>${post.likes}</span>
             </div>
 
@@ -181,3 +181,11 @@ function renderPosts() {
 }
 
 renderPosts();
+
+postContainer.addEventListener("click", (e) => {
+  const likeBtn = e.target.closest(".like-icon");
+
+  if (likeBtn) {
+    likeBtn.classList.toggle("liked");
+  }
+});

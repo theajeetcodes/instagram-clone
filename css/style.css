@@ -240,6 +240,16 @@
 .icon img {
     width: 25px;
 }
+
+.like-icon {
+    filter: brightness(0) invert(1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.like-icon.liked {
+    filter: invert(27%) sepia(96%) saturate(7471%) hue-rotate(356deg) brightness(101%) contrast(109%);
+}
 .description-box {
     padding: 0 15px;
 }
@@ -564,6 +574,12 @@
 
     .icon img {
         width: 22px;
+    }
+
+    .like-icon {
+        filter: brightness(0) invert(1);
+        transition: 0.3s;
+        cursor: pointer;
     }
     
     .description-box {
