@@ -124,7 +124,7 @@ function renderPosts() {
     <div class="post">
 
         <div class="user-detail">
-          <img src="${post.profile}" class="post-profile">
+          <img src="${post.profile}" class="post-profile profile-click">
 
           <div class="user-info">
             <div class="top-row">
@@ -189,3 +189,4 @@ postContainer.addEventListener("click", (e) => {
     likeBtn.classList.toggle("liked");
   }
 });
+
