@@ -58,7 +58,7 @@ const posts = [
         username: "code.with.ajeet",
         profile: "images/profile.png",
         time: "1 h",
-        caption: "Portpolio",
+        caption: "Portfolio",
         media: "video/video1.mp4",
         type: "video",
         likes: "1M",
