@@ -40,3 +40,45 @@
     object-fit: contain;
     background: black;
 }
+
+@media (max-width: 768px) {
+    .profile-container {
+        padding: 10px;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .profile-pic {
+        width: 90px;
+        height: 90px;
+    }
+
+    .profile-info h2 {
+        font-size: 18px;
+    }
+
+    .stats {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    .profile-info p {
+        font-size: 14px;
+    }
+
+    .post-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2px;
+        margin-top: 20px;
+    }
+
+    .post-grid img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}
